@@ -4,10 +4,7 @@ import baseEntities.BasePage;
 import core.BrowsersService;
 import core.ReadProperties;
 import org.openqa.selenium.By;
-import wrappers.Button;
-import wrappers.UIElement;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class ProductsPage extends BasePage {

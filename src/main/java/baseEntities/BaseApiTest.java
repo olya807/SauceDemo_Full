@@ -1,4 +1,4 @@
-package baseEntities;
+/*package baseEntities;
 
 import org.testng.annotations.Test;
 
@@ -24,3 +24,4 @@ public class BaseApiTest {
                 .statusCode(HttpStatus.SC_OK);
     }
 }
+*/

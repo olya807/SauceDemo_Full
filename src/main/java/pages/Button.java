@@ -1,13 +1,13 @@
-package elements;
+package pages;
 
 import core.BrowsersService;
 import org.openqa.selenium.By;
 
 public class Button {
-    private final elements.UIElement uiElement;
+    private final UIElement uiElement;
 
     public Button(BrowsersService browsersService, By by) {
-        this.uiElement = new elements.UIElement(browsersService, by);
+        this.uiElement = new UIElement(browsersService, by);
     }
 
     public void click() {

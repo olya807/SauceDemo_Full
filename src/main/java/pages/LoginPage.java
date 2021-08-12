@@ -26,7 +26,7 @@ public class LoginPage extends BasePage {
 
     @Override
     public boolean isPageOpened() {
-        return new elements.UIElement(browsersService, loginBtnSelector).isDisplayed();
+        return new UIElement(browsersService, loginBtnSelector).isDisplayed();
     }
 
     public Input getUsernameField() {

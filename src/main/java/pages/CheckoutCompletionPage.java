@@ -5,8 +5,6 @@ import core.BrowsersService;
 import core.ReadProperties;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebElement;
-import wrappers.UIElement;
 
 
 public class CheckoutCompletionPage extends BasePage {

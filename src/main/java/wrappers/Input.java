@@ -2,12 +2,13 @@ package wrappers;
 
 import core.BrowsersService;
 import org.openqa.selenium.By;
+import pages.UIElement;
 
 public class Input {
-    private final elements.UIElement uiElement;
+    private final UIElement uiElement;
 
     public Input(BrowsersService browsersService, By by) {
-        this.uiElement = new elements.UIElement(browsersService, by);
+        this.uiElement = new UIElement(browsersService, by);
     }
 
     public void sendKeys(){

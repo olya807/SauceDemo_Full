@@ -1,4 +1,4 @@
-package elements;
+package pages;
 
 import core.BrowsersService;
 import org.openqa.selenium.*;

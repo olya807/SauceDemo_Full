@@ -1,4 +1,4 @@
-package tests.api;
+/*package tests.api;
 
 import core.ReadProperties;
 import io.restassured.RestAssured;
@@ -42,3 +42,4 @@ public class TestRailSimpleApiTest {
         Assert.assertEquals(statusCode, 200);
     }
 }
+*/

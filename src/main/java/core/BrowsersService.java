@@ -15,6 +15,7 @@ public class BrowsersService {
     public BrowsersService() {
         switch (ReadProperties.getInstance().getBrowserName().toLowerCase()) {
             case "chrome" :
+            {
                 WebDriverManager.getInstance(DriverManagerType.CHROME).setup();
                 ChromeOptions chromeOptions = new ChromeOptions();
                 chromeOptions.setHeadless(ReadProperties.getInstance().isHeadless());
@@ -23,18 +24,18 @@ public class BrowsersService {
                 chromeOptions.addArguments("--ignore-certificate-errors");
                 chromeOptions.addArguments("--silent");
                 chromeOptions.addArguments("--start-maximized");
-
                 driver = new ChromeDriver(chromeOptions);
-            break;
+            }
             case "firefox" :
+            {
                 WebDriverManager.getInstance(DriverManagerType.FIREFOX).setup();
                 driver = new FirefoxDriver();
-            break;
+            }
             default :
                 System.out.println("Browser " + ReadProperties.getInstance().getBrowserName() + " is not supported.");
         }
 
-        waiters = new Waits(driver, ReadProperties.getInstance().getTimeOut());
+        waiters = new Waits(driver);
     }
 
     public WebDriver getDriver() {

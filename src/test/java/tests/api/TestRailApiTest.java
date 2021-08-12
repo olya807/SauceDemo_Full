@@ -1,4 +1,4 @@
-package tests.api;
+/*package tests.api;
 
 public class TestRailApiTest {
 
@@ -8,3 +8,4 @@ public class TestRailApiTest {
             ReadProperties.getInstance().getApiUsername(),
                 ReadProperties.getInstance().getApiPassword());
 }
+*/

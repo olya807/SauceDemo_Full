@@ -5,10 +5,7 @@ import core.BrowsersService;
 import core.ReadProperties;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebElement;
-import wrappers.Button;
 import wrappers.Input;
-import wrappers.UIElement;
 
 public class CheckoutInfoPage extends BasePage {
     private final static String endpoint = "checkout-step-one.html";

@@ -1,7 +1,6 @@
 package core;
 
 import java.io.IOException;
-import java.io.InputStream;
 import java.util.Properties;
 
 public final class ReadProperties {
@@ -24,6 +23,7 @@ public final class ReadProperties {
         return instance;
     }
 
+    // Методы получения property
     public String getURL() {
         return properties.getProperty("url");
     }

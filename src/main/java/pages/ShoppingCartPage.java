@@ -5,8 +5,6 @@ import core.BrowsersService;
 import core.ReadProperties;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
-import wrappers.Button;
-import wrappers.UIElement;
 
 public class ShoppingCartPage extends BasePage {
     private final static String endpoint = "/cart.html";

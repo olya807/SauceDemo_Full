@@ -1,4 +1,4 @@
-package models;
+/*package models;
 
 import lombok.Builder;
 import lombok.Data;
@@ -13,3 +13,4 @@ public class Project {
     private boolean is_completed;
     private int suite_mode;
 }
+*/
